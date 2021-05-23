@@ -11,7 +11,7 @@ let transporter = nodemailer.createTransport({
 
 let mailOptions = {
   from: process.env.EMAIL_ADDRESS,
-  to: "hartantoaanan@gmail.com", // alco can send to multiple email address eg: a@gmail, b@gmail ...
+  to: "target@gmail.com", // alco can send to multiple email address eg: a@gmail, b@gmail ...
   subject: "Hello world",
   text: "Test send email",
 };
