@@ -1,0 +1,26 @@
+body {
+  padding: 5rem;
+  background-color: cadetblue;
+}
+.map-container {
+  border-radius: 2rem;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #ffffff;
+  padding: 1rem;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  top: 3;
+  left: 3;
+  margin: 12px;
+  border-radius: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
